@@ -1,0 +1,133 @@
+/* Import Google Font for a clean look */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+.contacts-container {
+    font-family: 'Poppins', sans-serif;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    color: #2D5BE3;
+    font-weight: 600;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: white;
+    margin: 10px 0;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+li:hover {
+    transform: scale(1.02);
+}
+
+/* Contact Info */
+.contact-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-icon {
+    width: 40px;
+    height: 40px;
+    background: #2D5BE3;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-label {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.contact-number {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* Buttons */
+button {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+/* Add Contact Form */
+.add-contact-form {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.input-field {
+    width: 45%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+    outline: none;
+}
+
+.contact-form-actions {
+    margin-top: 10px;
+}
+
+.btn-primary {
+    background: #2D5BE3;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background: #1B49C4;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .input-field {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .contact-info {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

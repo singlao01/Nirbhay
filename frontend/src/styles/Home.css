@@ -1,0 +1,169 @@
+/* Import a clean, readable font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url('C:\Users\HP\OneDrive\Desktop\nirbhayy\frontend\public\womennn.png') no-repeat center center/cover;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: relative;
+}
+
+/* Overlay to enhance readability */
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    z-index: -1;
+}
+
+/* Hero Section */
+.hero-section {
+  color:white;
+    font-size:0.5rem;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.7);
+    padding: 2rem;
+    position: relative;
+    z-index: 1;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fefbfb;
+    margin-bottom: 10px;
+}
+
+h3.subtitle {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.description {
+    font-size: 1.2rem;
+    max-width: 600px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Buttons - Modern Style */
+button, .btn {
+    background: linear-gradient(45deg, #e4e4e4, #f3f0f1);
+    color: rgb(12, 1, 1);
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0px 4px 10px rgba(13, 0, 0, 0.985);
+}
+
+button:hover, .btn:hover {
+    background: linear-gradient(45deg, #efecec, #ff6b6b);
+    transform: scale(1.05);
+}
+
+/* Features Section */
+.features-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 3rem;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.1);
+    color:black;
+    border-radius: 10px;
+    /* backdrop-filter: blur(5px); */
+}
+
+.feature-card {
+  color:#000000;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.2);
+    transition: 0.3s;
+    color: #120505;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 20px rgba(255, 255, 255, 0.3);
+}
+
+.feature-icon {
+  color:#000000;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+/* News Carousel */
+.news-carousel {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.3);
+}
+
+.news-carousel h2 {
+    font-size: 1.8rem;
+    color: #f8f6f6;
+    margin-bottom: 15px;
+}
+
+.news-item {
+    padding: 20px;
+    color: #000000;
+}
+
+.news-item h3 {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.news-item p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.news-item a {
+    color: #f40c1f;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.news-item a:hover {
+    text-decoration: underline;
+}
+
+/* Slick Carousel Styling */
+.slick-dots li button:before {
+    color: #ff4757;
+    font-size: 12px;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #f40000;
+}

@@ -1,0 +1,40 @@
+.safety-container {
+  padding: 40px;
+  text-align: center;
+}
+
+.safety-categories {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.safety-category {
+  color:black;
+  padding: 10px 20px;
+  background: rgb(255, 246, 246);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.safety-category.active {
+  background: #d90429;
+  color: rgb(16, 14, 14);
+}
+
+.safety-tip {
+  background: white;
+  color: black;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  margin: 10px 0;
+  text-align: left;
+}
+
+.safety-tip-number {
+  font-weight: bold;
+  color: #ff002b;
+}

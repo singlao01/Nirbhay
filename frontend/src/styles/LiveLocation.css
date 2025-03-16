@@ -1,0 +1,20 @@
+.live-location {
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(254, 254, 254);
+}
+
+.location-btn {
+  background: rgb(242, 242, 242);
+  color: white;
+  font-size: 1rem;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.location-btn:hover {
+  background: rgb(255, 255, 255);
+  color: white;
+}
